@@ -1,7 +1,7 @@
 {
-  "name": "gitbook-plugin-cdc-tema",
+  "name": "gitbook-plugin-rnfs-tema",
   "version": "0.0.1",
-  "description": "Tema da Casa do Codigo",
+  "description": "Tema RNFS",
   "main": "index.js",
   "private": true,
   "engines": {
