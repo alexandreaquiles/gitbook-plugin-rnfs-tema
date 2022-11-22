@@ -62,7 +62,7 @@ function pdfOptions(){
     this.options.pdf.headerFooterTemplate = path.join(__dirname, "./ebook/templates/pdf/cabecalho-rodape.tpl.html");
 
     this.options.pdf.summary = {
-        headerTemplate: null, 
+        headerTemplate: "", 
         footerTemplate: null
     };
 
