@@ -66,7 +66,7 @@ function pdfOptions(){
         footerTemplate: null
     };
 
-    this.options.tocTitle = "Summary";
+    this.options.tocTitle = "Table of Contents";
     this.options.chapterHeaderTitle = "Chapter ";
     this.options.captionPrefix = "Figure ";
 }
