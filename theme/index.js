@@ -65,4 +65,8 @@ function pdfOptions(){
         headerTemplate: "<p id='ebook-header' style='border-bottom: 1px solid black; margin-top: 36pt;'><span class='odd_page'><span></span><span style='float:right'>Table of Contents</span></span><span class='even_page'><span>Table of Contents</span><span style='float:right'></span></span></p>",
         footerTemplate: null
     };
+
+    this.options.tocTitle = "Summary";
+    this.options.chapterHeaderTitle = "Chapter ";
+    this.options.captionPrefix = "Figure ";
 }
