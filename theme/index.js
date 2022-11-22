@@ -62,7 +62,7 @@ function pdfOptions(){
     this.options.pdf.headerFooterTemplate = path.join(__dirname, "./ebook/templates/pdf/cabecalho-rodape.tpl.html");
 
     this.options.pdf.summary = {
-        headerTemplate: "<p id='ebook-header' style='border-bottom: 1px solid black; margin-top: 36pt;'><span class='odd_page'><span>Casa do Código</span><span style='float:right'>Sumário</span></span><span class='even_page'><span>Sumário</span><span style='float:right'>Casa do Código</span></span></p>",
+        headerTemplate: "<p id='ebook-header' style='border-bottom: 1px solid black; margin-top: 36pt;'><span class='odd_page'><span></span><span style='float:right'>Table of Contents</span></span><span class='even_page'><span>Table of Contents</span><span style='float:right'></span></span></p>",
         footerTemplate: null
     };
 }
